@@ -1,0 +1,61 @@
+body{
+	margin: 0 auto;
+}
+.backgroundRu{
+  background-image: url(../img/pexels-photo-697673.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+}
+#name{
+	position: relative;
+	top:150px;
+	left: 60px;
+	font-size: 60px;
+	font-family: 'Lobster', cursive;
+}
+#photo{
+	position: relative;
+	top: 50px;
+	left: 50px;
+	width: 20%;
+	border: 2px solid black;
+}
+.email {
+	margin-top: 5%;
+}
+.emaill, .repos{
+	display: flex;
+	margin-left: 5%;
+	font-family: 'Exo', sans-serif;
+}
+#email{
+	margin-top: 5%;
+}
+#public_repos{
+	margin-top:-1%;
+	margin-left: 1%;
+
+}
+.repos h3{
+	margin-top: -1%;
+}
+.modal-form{
+	margin-left: 5%;
+}
+.modal-form input{
+	border: none;
+	padding: 7px;
+	background-color: #515151;
+	text-align: center;
+	font-size: 15px;
+}
+.modal-form button{
+	padding: 7px;
+	text-align: center;
+	background-color: black;
+	color: #fff;
+	border: none;
+	margin-left: 10%;
+}
