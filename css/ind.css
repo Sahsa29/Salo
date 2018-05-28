@@ -214,24 +214,12 @@ footer{
 	font-family: 'Exo', sans-serif;
 }
 
-.logfuter input{
-	border: none;
-	background-color: #424242;
-	text-align: center;
-	color: #fff;
-	padding: 7px;
-}
 .logfuter a{
 	color: #FACC2E;
 	top: 25px;
 	font-size: 20px;
 }
-.logfuter button{
-	background-color: #FACC2E;
-	border: none;
-	padding: 6px;
-	font-family: 'Exo', sans-serif;
-}
+
 .force a{
   color: #fff;
   font-family: 'Exo', sans-serif;

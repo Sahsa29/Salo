@@ -21,11 +21,13 @@ document.getElementById('photo').setAttribute('src', photo);
 
 
 var email = getQueryVariable("email");
-if(email != null){
+
+if(email !== 'null'){
   document.getElementById('email').innerHTML=email;
-
   var public_repos = getQueryVariable("public_repos");
-document.getElementById('public_repos').innerHTML= decodeURI(public_repos);
+  document.getElementById('public_repos').innerHTML= decodeURI(public_repos);
 
+}else{
+  document.getElementById('email').innerHTML="obutenko318@gmail.com";
 }
 
